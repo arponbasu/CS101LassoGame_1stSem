@@ -1,0 +1,29 @@
+Lasso help
+
+Welcome to lasso game. In this game the player throws a lasso to capture a moving object. Depending on the type of the moving object,one earns or loses points 
+by capturing the moving object. 
+
+Rules of the game
+==================
+1) This game has 3 levels. In each level the player is allowed to throw 5 lassoes. Score of the player is the total number of points obtained by collecting moving     objects.
+2) At the start of the game, the player is allowed to choose a level on which she wants to play by pressing 0, 1 or 2. If no key is pressed then by default the game
+   will start in level 0.
+3) The game can be terminated any time by pressing q. Upon pressing q a closing message will appear and the game will be terminated after 3 seconds. Alternately the
+   game can be terminated by clicking the close button of the canvas.
+4) This help file will appear upon pressing 'h' in the terminal and a pdf of the same will also automatically open in Google chrome.
+5) By pressing 't' a lasso will be thrown. To capture a projectile the player needs to press 'l' at the suitable moment. Projectile will be captured if it is within the lasso radius. Every time the player presses 't' it will be treated that a lasso is thrown.
+6) Player can bring back lasso to starting point by pressing 'y' when lasso is in air. If the player does not press 'y', then the lasso will fall on ground and will automatically be taken back to the starting position.
+7) It is possible to change the throwing angle of the lasso by pressing '[' or ']'.
+8) It is possible to change the speed of the lasso throw by pressing '+' or '-'. 
+9) When a level is over a flashing message will apear to anounce the end of level. After three second game will automatically proceed to next level. At the last level game will show the message that no more levels are left and will automatically terminate within next three seconds.
+10) Score of the game is cumulative. Score will keep on adding or reducing from the previous level score.
+11) Level 0 of the game is the easiest. In this level projectlite to be captured is only coin, which has color gold. If this coin is captured play will be rewarded with a point of +1. Since maximum lasso count is 5, so maximum possible score a player can have in any level is 5. This level is easy because coins will always be fired from a fixed position at an angle 90 degree with fixed velocity.
+12) In level 1, along with coin, projectile can be a bomb (with color red and bigger in size than coin) or a special coin (green in color and slightly smaller in size than normal coin).In this level, projectiles (be it coin, bomb or special coin) will appear randomly and at a random angle between 85 to 95 degree. However each projectile will have fixed muzzle speed. If Lasso captures a bomb a point will be deducted. For a special coin , if it is collected then one point will be added and if lasso fail to capture the special coin , a point will be deducted. In this level , theoritical maximum point a player may get is 5 and minimum is -5 (either by collecting five bombs or by missing five special coin)
+13)  In level 2, rule is exactly same like level 1 but difficulty is more as in level 2 muzzle speed of the projectile is variable.
+
+
+Happy gaming. If you have any more query feel free to contact 200050013@iitb.ac.in.
+
+
+
+

@@ -1,0 +1,17 @@
+How Compile the Code
+ Extract the zip file to a folder. Inside that folder right click to
+ get the option "open terminal here". Alternatively open terminal and
+ cd to the folder containing the code.
+
+ In shell prompt write command /full/path/to/s++ -o lasso *.cpp *.h
+  and then press enter. It should compile and create the binary lasso.
+
+
+Run it by writing command .lasso in terminal and then press enter
+
+Help file for the game is help_lasso.txt . It can be seperately viewwd
+by opening it in a text editor. During game run if 'h' button is
+pressed then this same help file will open in the terminal from where
+lasso is started. If lasso is started by double clicking then Pressing
+'h' button won't open anything in terminal.help_lasso.txt is readonly 
+to protect it from accidental editing.
